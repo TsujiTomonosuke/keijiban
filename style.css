@@ -1,0 +1,118 @@
+body{font-family: "Hiragino Kaku Gothic ProN","メイリオ",sans-serif;
+}
+
+img{width:300px
+}
+header ul{
+    margin-top:10px; 
+    width:100%;
+    height:30px;
+    background-color: black;
+    list-style-type:none;
+    color:white;
+    font-size:5px;
+}
+
+header li{
+    display:inline-block;
+    padding-right:50px;
+    margin-top:8px;
+}
+
+main .left{ float:left; 
+    width:60%;
+}
+
+h1{ margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    border-left: 6px black solid;
+    border-bottom: 6px gray solid;  
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-size:30px;
+}
+
+
+form{ 
+    margin-left: 0px;
+    background-color: #fbfbfb;
+    border:3px #ebebeb solid;
+    border-radius: 10px;    
+}
+
+form h2{ margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-left: 4px red solid;
+    padding-left: 15px;
+    font-size:20px;
+}
+
+form div{
+    padding:5px;
+}
+
+.text,textarea{ 
+    border:1px solid #dfdfdf;
+    padding:5px;
+    color:black;
+    background-color:#fff;
+}
+
+.submit{ 
+    border:1px solid lightgray;
+    padding:4px 10px;
+    color:white;
+    background-color:#bfbfbf;
+    border-radius: 5px;
+    border-bottom:solid 2px gray;
+}
+
+.title1{ 
+    margin-top:10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right:10px;
+    background-color: #fbfbfb;
+    border:3px #ebebeb solid;
+    border-radius: 10px;   
+}
+
+.title1 h2{ 
+    border-bottom: 1px solid gray;
+}
+
+
+main .link{ float: left;
+    width:20%;
+    padding-top: 50px;
+    padding-left:30px;
+}
+
+.link h3{
+    margin-top: auto;
+    margin-bottom: auto;
+    border-bottom:dotted black 3px;
+} 
+
+.link ul li{
+    list-style-type:none;
+    margin-bottom: 1em;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color:black;
+    color:white;
+    width:100%;
+    height:30px;
+    padding-top: 15px;
+    font-size:0.75em
+}
